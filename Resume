@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamila HADRI - Program Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> <!-- Google Fonts for better typography -->
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+        nav {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 500;
+            padding: 15px 0;
+            display: block;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #0056b3;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        .section h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .section h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .portfolio-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .portfolio-item img {
+            width: 80px;
+            height: 80px;
+            margin-right: 15px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            header h1 { font-size: 2em; }
+            nav ul { flex-direction: column; }
+            nav li { margin: 10px 0; }
+            .section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="profile.jpg" alt="Jamila HADRI Profile Photo"> <!-- Replace with your photo file name -->
+        <h1>Jamila HADRI, MBA</h1>
+        <p>Program Manager</p>
+        <p>Morocco | ma.jamilahadri@gmail.com | +212677949453 | <a href="https://github.com/[your-username]" style="color: white;">GitHub Profile</a></p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="summary" class="section">
+            <h2>Career Summary</h2>
+            <p>Program and Project manager with 14+ years driving SME transformation and digital innovation across the private sector and international development banking. Experienced in managing large portfolios, implementing digital platforms, digital non-financial products, and delivering impactful programs. Strong in stakeholder engagement, capacity building, human-centric design, and multicultural collaboration.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Professional Experience</h2>
+            <h3>Private Sector Specialist [May 2023 – June 2025]</h3>
+            <p>The European Bank for Reconstruction and Development, Morocco</p>
+            <ul>
+                <li>Acted as project manager for a pipeline of 60 SME digital transformation projects, totaling €400K funding. My actions focused on acquiring new SME clients (30% Transport), qualifying their business needs, closing projects, and monitoring the impact using DMAC methodology.</li>
+                <li>Based on policy dialogue with government agencies and private sector stakeholders, Co-designed and implemented a digital maturity assessment and strategic roadmap advisory product for Moroccan SMEs, securing up to 90% funding.</li>
+                <li>Co-developed a non-financial product in cyber security, fully funded by EBRD, to strengthen the national supply-side capabilities, improving the competitiveness of local businesses. This product is a unique initiative among MDBs, piloted in Morocco.</li>
+                <li>Delivered the EBRD-UNECA digital Capacity building program supporting over 200 women entrepreneurs.</li>
+                <li>Implemented Generation AI with LinkedIn, strengthening AI, innovation, and sustainability skills for 1,000 SMEs and startups.</li>
+                <li>Produced market analysis and data insights that shaped six high-level policy dialogue events on AI, cybersecurity, and SME digitalization (budget €100K).</li>
+                <li>Contributed to multi-country rollouts of EBRD knowledge cloud platforms (I-GO Green Readiness, Know How Academy 2.0) and supported strategic expansion into Sub-Saharan Africa.</li>
+                <li>Nominated digital champion, contributed to the rollout of EBRD co-pilot and the new SME Information System.</li>
+            </ul>
+
+            <h3>Founder and Strategic Consultant [July 2019 - April 2023]</h3>
+            <p>DI GROWTH Maroc (Strategy and Management consulting services), Morocco</p>
+            <ul>
+                <li>Oversaw a portfolio SME transformation projects by leading strategic and digital consulting projects using a design thinking approach (digital strategy, Odoo CRM implementation, etc).</li>
+                <li>Partnered with banks, donors (Bank of Africa, US Embassy, ENABEL), and public administrations to design open-innovation programs and hackathons, improving access to finance for +100 startups.</li>
+                <li>Designed and facilitated +20 design thinking workshops and market research projects, guiding clients from prototype to market.</li>
+                <li>Mentored Moroccan fintech startups under Attijariwafa Bank’s open innovation program, facilitating the development of solutions such as digital lending tools, AI-driven credit scoring, and payment platforms to improve financial inclusion.</li>
+                <li>Directed the Intilaka entrepreneurship program in southern Morocco, developing a data-driven dashboard and managing a four-person team.</li>
+            </ul>
+
+            <h3>Business Development and functional IT Project Manager [March 2012 - May 2019]</h3>
+            <p>ATLAS SERVAIR, Group Royal Air Maroc and Gate Group (catering industrial unit), Morocco</p>
+            <ul>
+                <li>Managed a €10M+ duty-free business unit, a portfolio of 3 airline companies, driving a 25% revenue increase and 12% cost reduction through innovative sales strategies and process optimization (20 employees). Led diversification of services and served as product owner for change and transformation projects.</li>
+                <li>Oversaw warehouse operations, negotiated supplier procurement contracts, analyzed international market trends, and developed quarterly pricing proposals and sales and product decks that boosted ancillary revenues.</li>
+                <li>Directed, as PMO, a GATE GROUP–compliance transformation project, a €200K enterprise end-to-end IT project using Agile/Scrum, and a Power BI project, strengthening business process modeling and data-driven decision-making.</li>
+            </ul>
+
+            <h3>IT Functional Consultant [April 2011 - March 2012]</h3>
+            <p>Involys (develops ERP solutions for the private and public sectors), Morocco</p>
+            <ul>
+                <li>Contributed to missions in project preparation, functional testing, and client training.</li>
+                <li>Implemented end-to-end ERP systems for 10+ SME clients and supported 400+ end users during onboarding, training, and testing phases.</li>
+                <li>Conducted workshops to validate requirements and ensure business process alignment with client needs.</li>
+            </ul>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>ISC2 Cybersecurity certification, ongoing.</li>
+                <li>MBA, Ecole Nationale des Ponts et Chaussées, Paris (France) – Ranked Top 30 globally (FT).</li>
+                <li>Certificate in International Management, Neoma Business School, France – FT Global Ranking #34.</li>
+                <li>B.A. in Accounting & Finance, ENCG Settat, Morocco – Ranked #1 in Finance nationwide.</li>
+                <li>Baccalaureate in Science, with Honors.</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <p><strong>Technical Skills:</strong> Program Management, Stakeholder Management, Data Analysis, Process Improvement, Agile Methodologies, management consulting, product management, sales, marketing, donor-funded operations, design thinking and innovative program design, strategic planning, digital integration, procurement, and financial management, roadmap.</p>
+            <p><strong>Digital Skills:</strong> Microsoft office, Excel and PowerPoint, MS office 365, Copilot, Power BI, AI Gen Tools, Tableau, Ms Access, SQL basis.</p>
+            <p><strong>Soft skills:</strong> Stakeholder engagement, analytical thinking, change management, multicultural collaboration, communication, creativity, cross-functional leadership, problem-solving.</p>
+            <p><strong>Languages:</strong> Arabic: Native | French: Fluent | English: Fluent</p>
+        </section>
+
+        <section id="activities" class="section">
+            <h2>Extra Activities</h2>
+            <ul>
+                <li>Certificate of Circular Challenge Finalist by London School of Economics, 2021</li>
+                <li>USA Professional Fellow for Economic Empowerment 2021, fellowship placement at Fahrenheit, New York Team.</li>
+                <li>USA Pavilion Dubai EXPO FELLOW. (2021-2022).</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>Portfolio: Examples of My Work</h2>
+            <p>Here, I share samples of projects, reports, and deliverables from my career. Click the links to view or download.</p>
+            <div class="portfolio-item">
+                <img src="placeholder.jpg" alt="EBRD Report"> <!-- Replace with actual image -->
+                <div>
+                    <a href="[Link to example 1]">EBRD Digital Maturity Assessment Roadmap (Sample Report)</a> - Co-designed strategic advisory product for Moroccan SMEs.
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="placeholder.jpg" alt="Cybersecurity Presentation">
+                <div>
+                    <a href="[Link to example 2]">Cybersecurity Non-Financial Product Pilot (Presentation)</a> - Overview of the EBRD-funded initiative.
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="placeholder.jpg" alt="Dashboard Demo">
+                <div>
+                    <a href="[Link to example 3]">Intilaka Entrepreneurship Program Dashboard (Interactive Demo)</a> - Data-driven tool I developed for program management.
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="placeholder.jpg" alt="Power BI Project">
+                <div>
+                    <a href="[Link to example 4]">Power BI Project for ATLAS SERVAIR (Screenshots/Report)</a> - Business process modeling example.
+                </div>
+            </div>
+            <p><em>To add more examples: Upload files (e.g., PDFs, images) to this repository and link them here. If you have code or interactive demos, create sub-repositories and link them.</em></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Jamila HADRI. Contact: <a href="mailto:ma.jamilahadri@gmail.com">ma.jamilahadri@gmail.com</a> | LinkedIn: <a href="https://linkedin.com/in/jamila-hadri/">linkedin.com/in/jamila-hadri/</a></p>
+    </footer>
+</body>
+</html>
